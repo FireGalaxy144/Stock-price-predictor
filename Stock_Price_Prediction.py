@@ -60,4 +60,3 @@ regressor.compile(optimizer='adam', loss= 'mean_squared_error')
 regressor.fit(X_train, y_train, epochs=100, batch_size=32)
 
 regressor.save('my_model.keras')
-
